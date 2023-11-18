@@ -1,6 +1,5 @@
 function firstNonRepeatedChar(str) {
  // Write your code here
-
 	let count=1;
 	for(let i=0;i<str.length-1;i++)
 		{
@@ -19,3 +18,5 @@ function firstNonRepeatedChar(str) {
 		}
 	return null;
 }
+let input= prompt("Enter the string");
+alert(firstNonRepeatedChar(input));
